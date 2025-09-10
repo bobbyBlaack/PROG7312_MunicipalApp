@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Loyiso_MunicipalWebApp.props" />
+</Project>

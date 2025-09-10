@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Custom Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <!-- Top Nav -->
+    <div class="top-nav">
+        <div class="logo"><img src="~/images/cojlogo.png" alt="Logo" style="height:90px;" /></div>
+        <div class="dropdown">
+            <button class="dropbtn"><img src="~/images/customer.png" style="height:40px" />Language ▼</button>
+            <div class="dropdown-content">
+                <a href="#">English</a>
+                <a href="#">Afrikaans</a>
+                <a href="#">Zulu</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    
+    <div class="button-container">
+        <form asp-controller="UserActions" asp-action="ReportIssues" method="post">
+        <button class="custom-btn" STYLE="text-decoration: underline; font-size: 50px">
+            REPORT ISSUES
+            <br />
+            <br />
+            <img src="~/images/report.png" style="height: 200px"/>
+        </button>
+        </form>
+
+        <form asp-controller="UserActions" asp-action="LocalNews" method="post">
+        <button class="custom-btn" STYLE="text-decoration: underline; font-size: 50px">
+            LOCAL NEWS
+            <br />
+            <br />
+            <img src="~/images/newspaper.png" style="height: 200px" />
+        </button>
+        </form>
+
+        <form asp-controller="UserActions" asp-action="ReportStatus" method="post">
+        <button class="custom-btn" STYLE="text-decoration: underline; font-size: 50px">
+            REPORT STATUS
+            <br />
+            <br />
+            <img src="~/images/goals.png" style="height: 200px" />
+        </button>
+        </form>
+    </div>
+    
+    <!-- Bottom Nav -->
+    <div class="bottom-nav">
+        <a href="#">Contact Us</a>
+        <a href="#">FAQ</a>
+        <a href="#">Help</a>
+    </div>
+
+</body>
+</html>

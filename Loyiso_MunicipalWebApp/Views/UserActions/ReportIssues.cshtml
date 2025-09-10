@@ -1,0 +1,79 @@
+﻿@model Loyiso_MunicipalWebApp.Models.ReportModel
+
+@{
+    ViewBag.Title = "Report Issues";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <!-- Top Nav -->
+    <div class="top-nav">
+        <div class="logo" >
+            <a asp-area="" asp-controller="Home" asp-action="Index">
+            <img src="~/images/left-arrow.png" alt="Logo" style="height:90px;" />
+           
+            </a>
+            </div>
+
+    </div>
+
+    <!-- User form-->
+    <div class="form">
+        <form asp-action="AddNewReport" enctype="multipart/form-data" style="background-color:white">
+
+            <div class="form-group">
+                <label asp-for="Location" class="control-label">Incident Location:</label>
+                <input asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Category" class="control-label">Category</label>
+                <select asp-for="Category" class="form-control">
+                    <option value="">-- Select Category --</option>
+                    <option>Infrastructure</option>
+                    <option>Worker</option>
+                    <option>Service</option>
+                </select>
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">Description:</label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Media" class="control-label">Upload Media</label>
+                <input type="file" asp-for="Media" class="form-control" />
+                <span asp-validation-for="Media" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="reporterID" class="control-label">Reporter ID</label>
+                <input asp-for="reporterID" class="form-control"></input>
+                <span asp-validation-for="reporterID" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+
+
+
+</body>
+
+<script>
+
+
+
+</script>
+</html>

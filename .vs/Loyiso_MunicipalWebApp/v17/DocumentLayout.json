@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER-PC\\source\\repos\\Loyiso_MunicipalWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79261290-772A-496F-91EE-45B0D39F6346}|Loyiso_MunicipalWebApp\\Loyiso_MunicipalWebApp.csproj|c:\\users\\user-pc\\source\\repos\\loyiso_municipalwebapp\\loyiso_municipalwebapp\\views\\useractions\\reportissues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79261290-772A-496F-91EE-45B0D39F6346}|Loyiso_MunicipalWebApp\\Loyiso_MunicipalWebApp.csproj|solutionrelative:loyiso_municipalwebapp\\views\\useractions\\reportissues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1019543921:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportIssues.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER-PC\\source\\repos\\Loyiso_MunicipalWebApp\\Loyiso_MunicipalWebApp\\Views\\UserActions\\ReportIssues.cshtml",
+              "RelativeDocumentMoniker": "Loyiso_MunicipalWebApp\\Views\\UserActions\\ReportIssues.cshtml",
+              "ToolTip": "C:\\Users\\USER-PC\\source\\repos\\Loyiso_MunicipalWebApp\\Loyiso_MunicipalWebApp\\Views\\UserActions\\ReportIssues.cshtml",
+              "RelativeToolTip": "Loyiso_MunicipalWebApp\\Views\\UserActions\\ReportIssues.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T18:11:16.802Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
